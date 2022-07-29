@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	version="4.0">
+	<display-name>timetable management</display-name>
+	<welcome-file-list>
+
+		<welcome-file>signup.jsp</welcome-file>
+		
+	</welcome-file-list>
+
+
+	<servlet>
+		<description></description>
+		<display-name>LoginServlet</display-name>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<description></description>
+		<display-name>SignupServlet</display-name>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.SignupServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/SignupServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>LogoutServlet</display-name>
+		<servlet-name>LogoutServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.LogoutServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LogoutServlet</servlet-name>
+		<url-pattern>/LogoutServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>SubServlet</display-name>
+		<servlet-name>SubServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.SubServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubServlet</servlet-name>
+		<url-pattern>/SubServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<description></description>
+		<display-name>Dummy</display-name>
+		<servlet-name>Dummy</servlet-name>
+		<servlet-class>com.timetable.servlets.Dummy</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Dummy</servlet-name>
+		<url-pattern>/Dummy</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<servlet>
+		<description></description>
+		<display-name>SelectFac</display-name>
+		<servlet-name>SelectFac</servlet-name>
+		<servlet-class>com.timetable.servlets.SelectFac</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SelectFac</servlet-name>
+		<url-pattern>/SelectFac</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>SubchServlet</display-name>
+		<servlet-name>SubchServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.SubchServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubchServlet</servlet-name>
+		<url-pattern>/SubchServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description></description>
+		<display-name>SubdisServlet</display-name>
+		<servlet-name>SubdisServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.SubdisServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubdisServlet</servlet-name>
+		<url-pattern>/SubdisServlet</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<description></description>
+		<display-name>FileUploadServlet</display-name>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<servlet-class>com.timetable.servlets.FileUploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FileUploadServlet</servlet-name>
+		<url-pattern>/FileUploadServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+</web-app>
